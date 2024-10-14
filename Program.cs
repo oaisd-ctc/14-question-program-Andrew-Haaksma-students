@@ -20,22 +20,22 @@ public class Program
         Console.WriteLine("enter your shoe size: ");
         string shoe = Console.ReadLine();
 
-        Console.WriteLine("enter your favorit movie: ");
+        Console.WriteLine("enter your favorite movie: ");
         string movie = Console.ReadLine();
 
-        Console.WriteLine("enter your favorit color: ");
+        Console.WriteLine("enter your favorite color: ");
         string color = Console.ReadLine();
 
-        Console.WriteLine("enter your favorit teacher: ");
+        Console.WriteLine("enter your favorite teacher: ");
         string teacher = Console.ReadLine();
 
-        Console.WriteLine("enter your favorit class: ");
+        Console.WriteLine("enter your favorite class: ");
         string study = Console.ReadLine();
 
-        Console.WriteLine("enter your favorit holiday: ");
+        Console.WriteLine("enter your favorite holiday: ");
         string holiday = Console.ReadLine();
 
-        Console.WriteLine("enter your favorit season: ");
+        Console.WriteLine("enter your favorite season: ");
         string season = Console.ReadLine();
 
         Console.WriteLine("enter your dream job: ");
@@ -52,6 +52,6 @@ public class Program
         + ". " + name + " favorite class of the day is " + study + " he hopes to go into " + dream 
         + "as his dream job and is always able to go and ask " + teacher + " if he has any problems. " 
         + " Though he does love " + holiday +  " and he does love " + season + ". " + name + " has " + siblings 
-        + "sibling with him during his time at highschool and in five years " + name + " will be " + (number + 5) + ".");
+        + " sibling with him during his time at highschool and in five years " + name + " will be " + (number + 5) + ".");
     }
 }
