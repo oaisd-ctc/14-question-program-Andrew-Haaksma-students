@@ -5,8 +5,10 @@ public class Program
 {
     public static void Main(string[] args)
     {
+        /*plug in info*/
         Console.WriteLine("enter your name: ");
         string name = Console.ReadLine();
+        int number = int.Parse(age); 
 
         Console.WriteLine("enter your age: ");
         string age = Console.ReadLine();
@@ -44,8 +46,7 @@ public class Program
         Console.WriteLine("enter amount of siblings: ");
         string siblings = Console.ReadLine();
 
-        int number = int.Parse(age); 
-
+        /*results of info*/
         Console.WriteLine("My friend's name is " + name + ". " + name + " is " + age + " years old. " + name + 
         " eye color is " + eye + " with " + hair + " hair and a pair of size " + shoe + " shoes and on them should be " 
         + color + " his favorite color. Which he uses to walk to school with. " + "He also loves the movie " + movie 
