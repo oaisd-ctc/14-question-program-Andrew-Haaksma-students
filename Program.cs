@@ -1,26 +1,57 @@
+﻿// See https://aka.ms/new-console-template for more information
 using System;
 
-public class Program{
-    public static void Main(string[] args){
+public class Program
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("enter your name: ");
         string name = Console.ReadLine();
+
+        Console.WriteLine("enter your age: ");
         string age = Console.ReadLine();
+
+        Console.WriteLine("enter your eye color: ");
         string eye = Console.ReadLine();
+
+        Console.WriteLine("enter your hair color: ");
         string hair = Console.ReadLine();
+
+        Console.WriteLine("enter your shoe size: ");
         string shoe = Console.ReadLine();
-        string color = Console.ReadLine();
+
+        Console.WriteLine("enter your favorit movie: ");
         string movie = Console.ReadLine();
+
+        Console.WriteLine("enter your favorit color: ");
+        string color = Console.ReadLine();
+
+        Console.WriteLine("enter your favorit teacher: ");
         string teacher = Console.ReadLine();
+
+        Console.WriteLine("enter your favorit class: ");
         string study = Console.ReadLine();
+
+        Console.WriteLine("enter your favorit holiday: ");
         string holiday = Console.ReadLine();
+
+        Console.WriteLine("enter your favorit season: ");
         string season = Console.ReadLine();
-        string job = Console.ReadLine();
+
+        Console.WriteLine("enter your dream job: ");
+        string dream = Console.ReadLine();
+
+        Console.WriteLine("enter amount of siblings: ");
         string siblings = Console.ReadLine();
 
-        Console.WriteLine("My friend's name is " + name + "." + name + " is " + age + " years old. " + name + 
-        " eye color is " + eye + " with " + hair + " hair and a pair of a size " + shoe + "shoes and on them should be" 
-        + color + "his favorite color. Which he uses to walk to school with." + name + " favorite class of the day is " 
-        + study + "with his favorite teacher being" + teacher + "." + "Though he does love" + holiday + 
-        " Although he does love " + season + "." + name + "has" + siblings + "with him during his time at highschool and in five years" +
-        name + "will be" + (age + 5) + ".");
+        int number = int.Parse(age); 
+
+        Console.WriteLine("My friend's name is " + name + ". " + name + " is " + age + " years old. " + name + 
+        " eye color is " + eye + " with " + hair + " hair and a pair of size " + shoe + " shoes and on them should be " 
+        + color + " his favorite color. Which he uses to walk to school with. " + "He also loves the movie " + movie 
+        + ". " + name + " favorite class of the day is " + study + " he hopes to go into " + dream 
+        + "as his dream job and is always able to go and ask " + teacher + " if he has any problems. " 
+        + " Though he does love " + holiday +  " and he does love " + season + ". " + name + " has " + siblings 
+        + "sibling with him during his time at highschool and in five years " + name + " will be " + (number + 5) + ".");
     }
 }
